@@ -1,0 +1,15 @@
+body {
+    background: url("https://static.pexels.com/photos/210307/pexels-photo-210307.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    opacity: 0.9;
+}
+
+.error404 {
+    margin-top: 200px;
+}
