@@ -13,3 +13,28 @@ body {
 .error404 {
     margin-top: 200px;
 }
+
+.commentary-form-textarea {
+    margin-bottom: 20px;
+}
+
+.commentary-list {
+    list-style: none;
+}
+
+.pseudo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.commentary-body {
+    width: 100%;
+    border-top: 1px solid #BBB ;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.commentary {
+    margin: 15px 0 ;
+}
