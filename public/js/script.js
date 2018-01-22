@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
  $(".commentary-form").submit(function () {
-     let commentary = $(".commentary-form-textarea textarea").val();
+     let commentaryField = $(".commentary-form-textarea textarea");
+     let commentary = commentaryField.val();
 
      let htmlCommentary = $("<li class='commentary'>");
      let htmlCommentaryHeader = $("<div class='commentary-header'>");
@@ -13,6 +14,7 @@ $(document).ready(function(){
      htmlCommentary = htmlCommentary.append(htmlCommentaryHeader).append(htmlCommentaryBody);
 
      $(".commentary-list").append(htmlCommentary);
+     commentaryField.val("");
      return false;
  });
 
